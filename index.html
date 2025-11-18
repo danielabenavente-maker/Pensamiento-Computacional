@@ -1,83 +1,110 @@
 <!DOCTYPE html>
-background: #ffb3d9;
-padding: 30px;
-text-align: center;
-color: white;
-font-size: 32px;
-font-weight: bold;
-letter-spacing: 1px;
-}
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre mí - Daniela Benavente</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ffd6e8, #ffeef8);
+      color: #4a2c3a;
+    }
 
-.container {
-max-width: 900px;
-margin: 40px auto;
-background: white;
-padding: 30px;
-border-radius: 20px;
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: #ff9acb;
+      color: white;
+      font-size: 40px;
+      font-weight: 600;
+      border-bottom-left-radius: 50% 20%;
+      border-bottom-right-radius: 50% 20%;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
 
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 25px;
+      box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+    }
 
-h2 {
-color: #d63384;
-margin-top: 30px;
-border-left: 6px solid #ff99cc;
-padding-left: 10px;
-}
+    h2 {
+      color: #d43f8d;
+      font-weight: 600;
+      margin-top: 35px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
 
+    h2::before {
+      content: '★';
+      color: #ff7fc7;
+      font-size: 20px;
+    }
 
-p {
-line-height: 1.6;
-font-size: 17px;
-}
+    p {
+      font-size: 17px;
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
 
+    .footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+      color: #4a2c3a;
+      font-size: 15px;
+    }
 
-.footer {
-text-align: center;
-margin-top: 40px;
-padding: 20px;
-color: #4a2c3a;
-font-size: 14px;
-}
-</style>
+    .card {
+      background: #ffe6f4;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: inset 0 0 10px rgba(0,0,0,0.08);
+      margin: 20px 0;
+    }
+
+  </style>
 </head>
 <body>
-<header>
-✨ Daniela Benavente ✨
-</header>
+  <header>
+    💗 Daniela Benavente 💗
+  </header>
 
+  <div class="container">
+    <h2>Sobre mí</h2>
+    <p>Mi nombre es <strong>Daniela Benavente</strong> y me considero una persona sociable, amigable y siempre abierta a conocer nuevas personas. Disfruto vivir nuevas experiencias, viajar y descubrir lugares que amplíen mi perspectiva del mundo.</p>
 
-<div class="container">
-<h2>Sobre mí</h2>
-<p>Mi nombre es <strong>Daniela Benavente</strong> y me considero una persona sociable, amigable y siempre abierta a conocer nuevas personas. Disfruto vivir nuevas experiencias, viajar y descubrir lugares que amplíen mi perspectiva del mundo.</p>
+    <p>La tecnología forma parte de mi día a día: la utilizo para comunicarme, aprender, organizar mis actividades y resolver dudas en cualquier momento. Al comprenderla mejor, puedo interactuar de forma más consciente con el mundo digital que me rodea.</p>
 
+    <h2>1. Mi educación</h2>
+    <p>Actualmente curso el cuarto semestre de Administración de Negocios. Mi formación incluye áreas como humanidades, matemáticas y artes, lo que ha fortalecido mi pensamiento crítico y mi desarrollo integral.</p>
 
-<p>En este recorrido personal, la tecnología se ha convertido en una presencia constante: forma parte de mi rutina diaria e incluso de mis momentos más cotidianos. A través de las redes sociales mantengo contacto con mis amigos, recurro a internet para resolver dudas de forma inmediata y, en muchas ocasiones, organizo mis actividades —incluso mi almuerzo— desde el celular.</p>
+    <h2>2. El curso de “Pensamiento Computacional”</h2>
 
+    <div class="card">
+      <p>Este curso me ha permitido entender cómo funcionan las redes y sistemas tecnológicos con los que convivimos cada día. Gracias a la guía del profesor Ernesto, he profundizado en conceptos que antes pasaba por alto.</p>
+      <p><strong>Algunos de mis compañeros son: 
+      <ul>
+        <li><a href="https://svr-glitch.github.io/SANTIAGO-VELASCO-RIVERA/" target="_blank">Santiago Velasco</a></li>
+        <li><a href="https://cesarluisgonzalesmeneses.github.io/paginaweb/" target="_blank">Cesar Luis Gonzales</a></li>
+        <li><a href="https://leaovaldiviarivas.github.io/leandro-carlos-valdivia-rivas/" target="_blank">Leandro Valdivia</a></li>
+      </ul></p>
+    </div>
 
-<p>Por estas razones, reconozco la importancia de comprender el entorno tecnológico en el que estoy, de manera inevitable, profundamente inmersa. Entenderlo no solo facilita mi vida diaria, sino que también me permite interactuar de forma más consciente con el mundo que me rodea.</p>
+    <h2>3. Mis proyectos futuros</h2>
+    <p>Deseo culminar mi carrera profesional con éxito y continuar mis estudios con maestrías y doctorados. En el ámbito laboral, me gustaría enfocarme en marketing, donde pueda aplicar y potenciar mi creatividad.</p>
+  </div>
 
-
-<h2>1. Mi educación</h2>
-<p>Actualmente, en 2025, curso el cuarto semestre de la carrera de Administración de Negocios. Mi formación se ha construido a partir de diversas áreas del conocimiento, como humanidades, matemáticas y artes, entre otras. Esta variedad académica ha fortalecido mi pensamiento crítico, ampliando mi perspectiva y contribuyendo a mi desarrollo profesional de manera integral.</p>
-
-
-<h2>2. El curso de “Pensamiento Computacional”</h2>
-<p>Este curso me ha permitido comprender cómo funcionan el mundo tecnológico y las redes que utilizamos a diario. Aunque la mayoría de nosotros estamos inmersos en este entorno, pocas veces entendemos la complejidad que existe detrás de cada interacción digital, así como sus virtudes y riesgos.</p>
-
-
-<p>Gracias a la guía del profesor Ernesto, he logrado profundizar en estos conceptos y ampliar significativamente mis conocimientos en esta área.</p>
-
-
-<p><strong>Algunos de mis compañeros son:</strong> (aquí puedes añadir nombres)</p>
-
-
-<h2>3. Mis proyectos futuros</h2>
-<p>A futuro, mi principal objetivo es culminar mi carrera profesional de manera exitosa. Aspiro a fortalecer y expandir mis conocimientos mediante estudios de posgrado, como maestrías y, posteriormente, doctorados. En el ámbito laboral, me gustaría orientarme hacia el área de marketing, donde mi creatividad y las competencias adquiridas puedan aplicarse plenamente y seguir desarrollándose.</p>
-</div>
-
-
-<div class="footer">Hecho con 💗 por Daniela</div>
+  <div class="footer">✨ Página creada con cariño por Daniela ✨</div>
 </body>
 </html>
